@@ -1,0 +1,62 @@
+/* Base Styles */
+body {
+  font-family: "Linux Libertine", "Times New Roman", Georgia, serif;
+  font-size: 19px;
+  /* Increased from default (usually 16px) for an elegant, readable scale */
+  line-height: 1.7;
+  /* Slightly increased line spacing to match the larger text */
+  color: #333;
+  max-width: 800px;
+  /* Slightly widened the container so the large text doesn't wrap too aggressively */
+  margin: 50px auto;
+  padding: 0 25px;
+  background-color: #fcfcfc;
+}
+
+/* Header & Navigation */
+header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  color: #111;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings & Sections */
+h2 {
+  color: #222;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  font-size: 0.85em;
+  color: #777;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
